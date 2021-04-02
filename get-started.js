@@ -26,8 +26,8 @@ function inputsAreEmpty() {
   }
 }
 function updateLabel() {
-  var addend1 = getNumber1();
-  var addend2 = getNumber2();
+  var addend1 = parseInt(getNumber1());
+  var addend2 = parseInt(getNumber2());
   var sum = addend1 + addend2;
   label.textContent = addend1 + ' + ' + addend2 + ' = ' + sum;
 }
